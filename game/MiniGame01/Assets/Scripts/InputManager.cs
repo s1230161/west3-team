@@ -70,7 +70,7 @@ public class InputManager : MonoBehaviour {
 		// リクエスト送信
 		yield return request.Send();
 
-		if (request.isError) {
+		if (request.isNetworkError) {
 			Debug.Log ("エラー:" + request.error);
 		} else {
 			if (request.responseCode == 204) {

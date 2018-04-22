@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class HeroScript : MonoBehaviour {
 
@@ -9,6 +10,9 @@ public class HeroScript : MonoBehaviour {
     private float dx,dy;
     private bool onmouse;
     private bool doaction;
+
+	public Text cnt;
+	private int counter = 0;
     
     // Use this for initialization
     void Start () {
@@ -46,7 +50,9 @@ public class HeroScript : MonoBehaviour {
             }
             //マウスボタンが離されたとき
             if (Input.GetMouseButtonUp(0) && onmouse && doaction)
-            {
+			{
+				counter++;
+				cnt.text = "経過ターン数："+counter.ToString();
                 onmouse = false;
                 doaction = false;
                 //角度を計算
@@ -57,7 +63,7 @@ public class HeroScript : MonoBehaviour {
 				Vector2 m;
 				m.x = dx;
 				m.y = dy;
-				speed = Mathf.Sqrt(m.magnitude)-3;
+				speed = Mathf.Sqrt(m.magnitude)-5;
                 v.x = Mathf.Cos(rad) * speed;
                 v.y = Mathf.Sin(rad) * speed;
                 GetComponent<Rigidbody2D>().velocity = v;
