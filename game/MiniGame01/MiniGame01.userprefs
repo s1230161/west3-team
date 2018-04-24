@@ -1,19 +1,25 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ResultDisplay.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RankingScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\InputManager.cs" Line="112" Column="4" />
-      <File FileName="Assets\Scripts\RoginInput.cs" Line="42" Column="41" />
-      <File FileName="Assets\Scripts\clearJudgeScript.cs" Line="16" Column="2" />
-      <File FileName="Assets\Scripts\HeroScript.cs" Line="79" Column="3" />
-      <File FileName="Assets\Scripts\SendStr.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\InputManager.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RoginInput.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\clearJudgeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HeroScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ob2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ResultDisplay.cs" Line="33" Column="3" />
-      <File FileName="Assets\Scripts\PretimeScript.cs" Line="12" Column="45" />
+      <File FileName="Assets\Scripts\ResultDisplay.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PretimeScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\highScoreReceive.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Rogin.cs" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\goToRanking.cs" Line="5" Column="25" />
+      <File FileName="Assets\Scripts\returnTitleScript.cs" Line="5" Column="14" />
+      <File FileName="Assets\Scripts\RankingScript.cs" Line="51" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\home\west3-team\game\MiniGame01\Assets\Scripts\returnTitleScript.cs" line="5" column="15" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class PretimeScript : MonoBehaviour {
 
-	public Text preS;
+	public Text Uname;
 
 	// Use this for initialization
 	void Start () {
-		preS.text = InputManager.resultname + " さん";
+		Uname.text = InputManager.resultname + " さん";
 	}
 	
 	// Update is called once per frame

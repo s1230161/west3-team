@@ -7,6 +7,7 @@ using UnityEngine.Networking;
 public class ResultDisplay : MonoBehaviour {
 
 	public Text score;
+	public Text highScore;
 	UnityWebRequest request;
 
 	// Use this for initialization
@@ -42,6 +43,8 @@ public class ResultDisplay : MonoBehaviour {
 
 		// リクエスト送信
 		yield return request.SendWebRequest();
+
+		highScore.text = request.downloadHandler.text;
 
 		if (request.isNetworkError) {
 			Debug.Log ("エラー:" + request.error);
