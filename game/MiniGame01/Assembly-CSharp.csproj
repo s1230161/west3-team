@@ -57,7 +57,10 @@
      <Compile Include="Assets\Scripts\HeroScript.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
      <Compile Include="Assets\Scripts\ob2.cs" />
+     <Compile Include="Assets\Scripts\PretimeScript.cs" />
+     <Compile Include="Assets\Scripts\ResultDisplay.cs" />
      <Compile Include="Assets\Scripts\Rogin.cs" />
+     <Compile Include="Assets\Scripts\RoginInput.cs" />
      <Compile Include="Assets\Scripts\SendStr.cs" />
      <Compile Include="Assets\Scripts\wallScript.cs" />
      <Compile Include="Assets\Scripts\yajiScript.cs" />

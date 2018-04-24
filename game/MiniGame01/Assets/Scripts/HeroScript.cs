@@ -12,7 +12,7 @@ public class HeroScript : MonoBehaviour {
     private bool doaction;
 
 	public Text cnt;
-	private int counter = 0;
+	public static int counter = 0;
     
     // Use this for initialization
     void Start () {
@@ -73,5 +73,9 @@ public class HeroScript : MonoBehaviour {
         }else if(nowSpeed < 0.1f) GetComponent<Rigidbody2D>().velocity = new Vector2(0,0);
         else if (nowSpeed < speed / 3) GetComponent<Rigidbody2D>().velocity *= 0.97f;
     }
+
+	public static int getScore(){
+		return counter;
+	}
 
 }

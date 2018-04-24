@@ -10,6 +10,8 @@ public class InputManager : MonoBehaviour {
 
 	public Text errorMessage;
 
+	public static string resultname;
+
 
 	/// <summary>
 	/// Startメソッド
@@ -38,6 +40,7 @@ public class InputManager : MonoBehaviour {
 
 		//Debug.Log(inputValue);
 		if (inputValue.Length >= 5) {
+			resultname = inputValue;
 			errorMessage.text = ("読み込み中");
 			ConnectionStart (inputValue);
 		}else
@@ -101,4 +104,10 @@ public class InputManager : MonoBehaviour {
 			}
 		}
 	}
+
+	/*
+	public static string getName(){
+		return resultname;
+	}
+	*/
 }
