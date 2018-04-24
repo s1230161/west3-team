@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 
-public class RnakingScript : MonoBehaviour {
+public class RankingScript : MonoBehaviour {
 
 	public Text ranking;
 	UnityWebRequest request;
+	private string tmp_str;
 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +28,7 @@ public class RnakingScript : MonoBehaviour {
 
 	private IEnumerator Connection()
 	{
-		request = UnityWebRequest.Get("http://192.168.11.21:3000/game/finish_score");
+		request = UnityWebRequest.Get("http://192.168.11.21:3000/game/ranking");
 		request.downloadHandler = new DownloadHandlerBuffer();
 		//UnityWebRequest request = UnityWebRequest.Get("http://192.168.11.21:3000/game/please");
 
