@@ -788,7 +788,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Rnaking
+  m_Text: Ranking
 --- !u!222 &1874511443
 CanvasRenderer:
   m_ObjectHideFlags: 0

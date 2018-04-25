@@ -1,11 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\RankingScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\colorSelect.cs">
     <Files>
       <File FileName="Assets\Scripts\InputManager.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\RoginInput.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\clearJudgeScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\HeroScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\HeroScript.cs" Line="33" Column="4" />
       <File FileName="Assets\Scripts\ob2.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ResultDisplay.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\PretimeScript.cs" Line="1" Column="1" />
@@ -13,7 +13,10 @@
       <File FileName="Assets\Scripts\Rogin.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\goToRanking.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\returnTitleScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\RankingScript.cs" Line="11" Column="25" />
+      <File FileName="Assets\Scripts\RankingScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\goToMain.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\colorSelect.cs" Line="18" Column="5" />
+      <File FileName="Assets\skinSelect.cs" Line="25" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

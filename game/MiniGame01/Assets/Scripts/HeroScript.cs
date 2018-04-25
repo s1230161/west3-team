@@ -13,11 +13,24 @@ public class HeroScript : MonoBehaviour {
 
 	public Text cnt;
 	public static int counter = 0;
-    
+
+    //prefab
+	GameObject ball;
+	GameObject obj;
     // Use this for initialization
     void Start () {
         onmouse = false;
         doaction = false;
+		if (skinSelect.ballnum == 1)ball = (GameObject)Resources.Load ("Prefabs/baseball");
+		else if (skinSelect.ballnum == 2)ball = (GameObject)Resources.Load ("Prefabs/basketball");
+		else if (skinSelect.ballnum == 3)ball = (GameObject)Resources.Load ("Prefabs/soccerball");
+		else if (skinSelect.ballnum == 4)ball = (GameObject)Resources.Load ("Prefabs/tennisball");
+		else if (skinSelect.ballnum == 5)ball = (GameObject)Resources.Load ("Prefabs/huusen");
+		else this.gameObject.GetComponent<SpriteRenderer> ().color = colorSelect.getColor ();
+		if (skinSelect.ballnum != 0) {
+			obj = (GameObject)Instantiate (ball, transform.position, Quaternion.identity);
+			obj.transform.parent = transform;
+		}
 	}
 	
 	// Update is called once per frame
@@ -77,5 +90,6 @@ public class HeroScript : MonoBehaviour {
 	public static int getScore(){
 		return counter;
 	}
+
 
 }

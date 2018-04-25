@@ -51,13 +51,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\Back2.cs" />
      <Compile Include="Assets\Scripts\cameraScript.cs" />
+     <Compile Include="Assets\Scripts\Cancel.cs" />
      <Compile Include="Assets\Scripts\clearJudgeScript.cs" />
+     <Compile Include="Assets\Scripts\colorSelect.cs" />
      <Compile Include="Assets\Scripts\CreateNewUser.cs" />
+     <Compile Include="Assets\Scripts\GoalMove.cs" />
+     <Compile Include="Assets\Scripts\goToCharaMake.cs" />
+     <Compile Include="Assets\Scripts\goToMain.cs" />
      <Compile Include="Assets\Scripts\goToRanking.cs" />
+     <Compile Include="Assets\Scripts\HardButton.cs" />
      <Compile Include="Assets\Scripts\HeroScript.cs" />
      <Compile Include="Assets\Scripts\highScoreReceive.cs" />
      <Compile Include="Assets\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Scripts\Kettei.cs" />
+     <Compile Include="Assets\Scripts\MyCanvas.cs" />
+     <Compile Include="Assets\Scripts\NormalButton.cs" />
      <Compile Include="Assets\Scripts\ob2.cs" />
      <Compile Include="Assets\Scripts\PretimeScript.cs" />
      <Compile Include="Assets\Scripts\RankingScript.cs" />
@@ -65,6 +75,7 @@
      <Compile Include="Assets\Scripts\returnTitleScript.cs" />
      <Compile Include="Assets\Scripts\Rogin.cs" />
      <Compile Include="Assets\Scripts\RoginInput.cs" />
+     <Compile Include="Assets\Scripts\skinSelect.cs" />
      <Compile Include="Assets\Scripts\wallScript.cs" />
      <Compile Include="Assets\Scripts\yajiScript.cs" />
  <Reference Include="UnityEngine.UI">
